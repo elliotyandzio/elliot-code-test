@@ -1,0 +1,21 @@
+html {
+    background-color: $black !important;
+
+    body {
+        background-color: $black;
+        font-family: 'Lato', sans-serif;
+
+        h1 {
+            color: $white;
+            font-size: $font-xl;
+            text-align: center;
+        }
+
+        .events-list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+    }
+}

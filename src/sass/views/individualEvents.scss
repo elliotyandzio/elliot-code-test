@@ -1,0 +1,38 @@
+.indiv-event {
+    background: $darkGrey;
+    border-radius: 10px;
+    padding: 15px 15px 30px 15px;
+    width: calc(100% - 10px);
+    margin: 12px 12px;
+
+    @media only screen and (min-width: $breakpointSmall) {
+        width: calc(50% - 55px);
+    }
+
+    @media only screen and (min-width: $breakpointMedium) {
+        width: calc(33% - 55px);
+    }
+
+    @media only screen and (min-width: $breakpointLarge) {
+        width: calc(33% - 50px);
+    }
+
+    h2 {
+        color: $white;
+    }
+
+    p {
+        color: $green;
+        margin-bottom: 25px;
+    }
+
+    a {
+        background-color: $lightGreen;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border: $lightGreen;
+        border-radius: 5px;
+        font-size: $font-base;
+    }
+}
