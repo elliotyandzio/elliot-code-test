@@ -10,7 +10,7 @@ import Adapter from "enzyme-adapter-react-16";
 configure({ adapter: new Adapter() });
 
 describe("App component testing", () => {
-  it("renders welcome message", () => {
+  it("renders main title", () => {
     const wrapper = shallow(<App />);
     const welcome = <h1>Smarkets Test</h1>;
     expect(wrapper.contains(welcome)).to.equal(true);
