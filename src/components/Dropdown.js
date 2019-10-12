@@ -21,6 +21,11 @@ class Dropdown extends Component {
     getEventName(e.target.value);
   };
 
+  convertWord = word => {
+    const convertedWord = word.replace(/_/g, " ");
+    return convertedWord;
+  };
+
   render() {
     const { eventsList } = this.state;
     return (
@@ -29,7 +34,7 @@ class Dropdown extends Component {
           <option>Select an option</option>
           {eventsList.map(event => (
             <option key={event} value={event}>
-              {event.replace(/_/g, " ")}
+              {this.convertWord(event)}
             </option>
           ))}
         </select>

@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>Code Test Project</h1>
 
-## Available Scripts
+<h2>Description</h2>
+<p>I was given the task of making a project that returns the data from the company API using a modern Front End library. I chose React JS. Due to CORS issues it was necessary to create a simple Node JS proxy server in order to get access to the data that the API returned.</p>
 
-In the project directory, you can run:
+<h2>How to run the project</h2>
+<ol>
+	<li>Run npm install to retrieve all the packages used in the project.</li>
+	<li>Start the server using the command npm run server.</li>
+	<li>In a new terminal tab, run npm start.</li>
+	<li>A browser window will appear with the running project.</li>
+	<li>To run the tests created for the project you need to run the command, npm run test.</li>
+</ol>
 
-### `yarn start`
+<h2>Main technologies used</h2>
+<p>For the Back End proxy server, I used Node JS and the Epress JS framework. Whilst I have had some experience using these two technologies, this is the first time I have had to create a proxy server and I enjoyed the challenge.</p>
+<p>The Front End of the project is built on React JS. I used the create react app package to initialise a standard base React application to build on. I added node-sass to the project, using my Sass skills. I think it is a better way of styling than plain css.</p>
+<p>I have limited experience of writing JavaScript testing, so this was something I learned for this project. After research I decided that Enzyme and Chai were the main tools that could best support me with the implementation of tests. Following this research, I was able to use some tests.</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>What I would improve if I had more time on the project</h2>
+<ol>
+<li>As Node and Express JS aren't tools I use on a day to day basis, I would spend more time tidying up this code. I would like to make better use of functions and generally make it more efficent.</li>
+<li>With more time I would include additional testing. I enjoyed the challenge fo the testing. Testing the API and what it returns more thoroughly would be something I would develop further.</li>
+<li>I think the naming conventions in the project could be improved. I think this is something that can be easily overlooked when creating a project, but it is essential to use clear naming conventions, especially if more than one person would be working on the project. </li>
+</ol>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h2>Overall</h2>
+Overall, I feel the project was a success as I managed to create a working, good looking application that meets the main aim of the brief, return betting data from the API.
